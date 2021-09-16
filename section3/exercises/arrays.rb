@@ -27,17 +27,19 @@ puts animals.count()
 
 # YOU DO: Write code that will reassign the last item in the animals
 # array to "Gorilla"
-#added an extra animal since the last line wants us to print Elephant
+#added an extra animal since the last you do wants us to print Elephant
 #this will swap Cat to Gorilla this way
 #was also curious if I could assign index position 4 before 3
 animals[4] = "Cat"
 #print the array to see what happens (inserts a nil value to position 3)
 p animals
 animals[-1] = "Gorilla"
+#prints the last animal in the array to confirm the swap worked
 puts animals[-1]
 
 # YOU DO: Write code that will add a new animal (type of your choice) to position 3.
 animals[3] = "Cheetah"
+#prints the animal in index position 3 to confirm it worked
 puts animals[3]
 # YOU DO: Write code that will print the String "Elephant" in the animals array
 
