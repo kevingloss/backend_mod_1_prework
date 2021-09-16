@@ -10,7 +10,7 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'rainy'
+  weather = 'icy'
 
   if weather == 'sunny'
     p "sunscreen"
@@ -41,7 +41,7 @@
 # Experiment with manipulating the value held within num_quarters
 # to make sure both conditions can be achieved.
 
-num_quarters = 1
+num_quarters = 0
 if num_quarters >= 2
   puts "I have enough money for a gumball"
 else
@@ -63,8 +63,8 @@ end
 # Experiment with manipulating the value held within both variables
 # to make sure all above conditions output what you expect.
 
-cups_of_flour = 10
-has_sauce = false
+cups_of_flour = 3
+has_sauce = true
 
 if cups_of_flour >= 2 && has_sauce == true
   p "I can make pizza"

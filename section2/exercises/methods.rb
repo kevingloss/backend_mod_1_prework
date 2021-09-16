@@ -51,4 +51,4 @@ friends("Black Widow", "Hawkeye")
 # What did you name each parameter, and why?
 
 # EXPLAIN:
-# I named the method friends and the parameters
+# I named the method friends and the parameters friend1 and friend2 since the function gives us a string about two friends.
