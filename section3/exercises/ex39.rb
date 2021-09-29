@@ -1,7 +1,7 @@
 #create a mapping of state to abbreviation
 
 states = {
-  "Oregon" => "OR",
+  Oregon: "OR",
   "Florida" => "FL",
   "California" => "CA",
   "New York" => "NY",
@@ -17,14 +17,19 @@ cities = {
   "TX" => "Houston"
 }
 
+#add a state
+states[:Colorado] = "CO"
+
 #add some more cities
 cities["NY"] = "New York"
-cities["OR"] = "Portland"
+cities[:OR] = "Portland"
+cities[:CO] = "Denver"
 
 #puts out some cities
 puts "-" * 10
 puts "NY State has: #{cities["NY"]}"
-puts "OR State has: #{cities["OR"]}"
+puts "OR State has: #{cities[:OR]}"
+puts "CO State has: #{cities[:CO]}"
 
 #puts some states
 puts "-" * 10
